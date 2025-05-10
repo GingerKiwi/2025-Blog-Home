@@ -1,12 +1,24 @@
 :root {
-    --ff-primary: font-family "Radio Canada", sans-serif;
-    --ff-big: font-family "Radio Canada", sans-serif;
+    --ff-primary: font-family "Marcellus", serif;
+    --ff-big: font-family "Marcellus", serif;
 
     --clr-bg-light: #F2EAE4;
     --clr-bg-dark: #211C16;
 
     --clr-cream: #F2EAE4;
     --clr-dark-deep-brown: #211C16;
+    --clr-pure-white: #FFF;
+    --clr-pure-black: #000;
+
+    --clr-plum: #6F4E5B;
+    --clr-light-plum: #CC8797;
+    --clr-very-light-plum: #D3B4BB;
+    --clr-dark-plum: #544545;
+
+    --clr-green: #5B6F4E;
+    --clr-light-green: #AED197;
+    --clr-very-light-green: #CFF2A8;
+
     --clr-almost-white: #FEFDFD;
     --clr-purple: #9032EB;
 

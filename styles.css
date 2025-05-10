@@ -40,10 +40,11 @@ header {
     display: grid;
     grid-template-columns: 20% auto;
     grid-template-rows: 20% auto auto auto;
+    background-color: var(--clr-bg-dark);
 }
 
 .skip-to-main {
-    color: var(--clr-dark-deep-brown);
+    color: var(--clr-cream);
     text-decoration: underline;
     text-underline-offset: 8px;
     padding: .75rem;
@@ -54,19 +55,19 @@ header {
 }
 
 .skip-to-main:focus, .skip-to-main:hover {
-    background-color: var(--clr-bg-light);
+    background-color: var(--clr-bg-dark);
     text-decoration-color: var(--clr-brand-yellow);
     font-weight: 600;
 }
 
 .skip-to-main:active {
     font-weight: 600;
-    background-color: var(--clr-bg-light);
-    color: var(--clr-almost-black);
-    text-decoration-color: var(--clr-almost-black);
+    background-color: var(--clr-bg-dark);
+    color: var(--clr-cream);
+    text-decoration-color: var(--clr-cream);
 }
 
-.logo--illuma-header {
+.logo--header {
     max-width: 8.125rem;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -108,7 +109,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: var(--clr-dark-deep-brown);
+    color: var(--clr-cream);
     text-decoration: none;
     font-weight: 600;
     font-size: 1.75rem;
@@ -126,7 +127,7 @@ nav a {
 nav a:hover, nav a:focus {
     background-color: var(--clr-dark-deep-brown);
     text-decoration: underline;
-    text-decoration-color: var(--clr-brand-yellow);
+    text-decoration-color: var(--clr-light-green);
     text-underline-offset: 10px;
 }
 
@@ -162,7 +163,7 @@ ul {
 
 .a--cta {
     color: #FEFDFD;
-    background-color: #9032EB;
+    background-color: var(--clr-plum);
     padding: 0.75em 1em;
     border-radius: 24px;
     font-size: 2.75em;
@@ -187,9 +188,9 @@ ul {
 
 }
 
-/* SECTION: Services */
+/* SECTION: POSTS */
 
-.section--services, 
+.section--posts, 
 .section--our-work,
 .section--about {
     margin: .5rem 2rem;
@@ -198,7 +199,7 @@ ul {
     }
 }
 
-.services--grid {
+.posts--grid {
    display: grid;
    grid-template-columns: 1fr;
    @media (min-width: 740px) {
@@ -209,7 +210,7 @@ ul {
    }
 }
 
-.card--services {
+.card--posts {
     /* 3 columns and 6 rows */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -218,14 +219,14 @@ ul {
     align-content: center;
 }
 
-.icon--services {
+.icon--posts {
     display: block;
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
-.heading--service-name {
+.heading--post-name {
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -240,40 +241,40 @@ ul {
     }
 }
 
-.service--content {
+.post--content {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
 }
 
-.list--service {
+.list--post {
     list-style-image: url(/assets/icon-checkmark-light-purple.png);
 }
 
-.list--service li {
+.list--post li {
     font-size: 1.25rem;
     color: var(--clr-light-purple);
     padding-left: 1em;
 }
 
-.list--service li span {
+.list--post li span {
     position: relative;
     top: -15px;
     }
 
-.card--services {
+.card--posts {
     border: #58585C 2px solid;
     border-radius: 24px;
     padding: 0.75rem 1rem;
     margin: 1rem .25rem;
 }
 
-.icon--services {
+.icon--posts {
     max-width: 4rem;
 }
 
-.a--cta-service {
+.a--cta-post {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 4;
