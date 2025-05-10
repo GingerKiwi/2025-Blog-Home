@@ -516,3 +516,17 @@ footer nav ul {
         margin: 0;
     }
 }
+
+.copyright {
+    color: var(--clr-very-light-plum);
+    grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        justify-self: center;
+        padding: 2rem 0;
+        @media (max-width: 700px) {
+            font-size: 1rem; 
+            font-weight: 500;
+        }
+}
