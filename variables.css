@@ -1,6 +1,11 @@
 :root {
-    --ff-primary: font-family "Marcellus", serif;
+    /* --ff-primary: font-family "Marcellus", serif;
     --ff-big: font-family "Marcellus", serif;
+    --ff-body: font-family "Work Sans", sans-serif; */
+
+    --ff-primary: font-family serif;
+    --ff-big: font-family serif;
+    --ff-body: font-family sans-serif;
 
     --clr-bg-light: #F2EAE4;
     --clr-bg-dark: #211C16;

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background: var(--clr-bg-light, #211C16);
     color: var(--clr-dark-deep-brown);
-    font-family: 'Work Sans', sans;
+    /* font-family: 'Work Sans', sans; */
+    font-family: var(--ff-body);
 
     min-height: 100vh;
     display: flex;
@@ -254,7 +257,7 @@ ul {
 
 .list--post li {
     font-size: 1.25rem;
-    color: var(--clr-light-purple);
+    color: var(--clr-plum);
     padding-left: 1em;
 }
 
@@ -264,8 +267,8 @@ ul {
     }
 
 .card--posts {
-    border: #58585C 2px solid;
-    border-radius: 24px;
+    border: var(--clr-plum) 4px solid;
+    /* border-radius: 24px; */
     padding: 0.75rem 1rem;
     margin: 1rem .25rem;
 }
@@ -280,12 +283,12 @@ ul {
     grid-row-start: 4;
     grid-row-end: 5;
 
-    color: var(--clr-dark-deep-brown);
-    background-color: var(--clr-purple);
+    color: var(--clr-plum);
+    border: var(--clr-plum) 2px solid;
     padding: 0.75rem 1.25rem;
-    border-radius: 12px;
     font-size: 1.75rem;
     font-weight: 800;
+    font-family: var(--ff-primary);
     text-decoration: none;
     display: inline-block;
     max-width: 35rem;
