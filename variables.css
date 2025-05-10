@@ -1,0 +1,26 @@
+:root {
+    --ff-primary: font-family "Radio Canada", sans-serif;
+    --ff-big: font-family "Radio Canada", sans-serif;
+
+    --clr-bg-light: #F2EAE4;
+    --clr-bg-dark: #211C16;
+
+    --clr-cream: #F2EAE4;
+    --clr-dark-deep-brown: #211C16;
+    --clr-almost-white: #FEFDFD;
+    --clr-purple: #9032EB;
+
+    --clr-grey-medium: #58585C;
+    --clr-grey-dark: #393838;
+    --clr-light-purple: #D3ABEA;
+    --clr-blue-footer: #070327;
+
+    --clr-brand-yellow: #F5E345;
+
+    --clr-gradient-stop-01: #1C3B87;
+    --clr-gradient-stop-02: #140941;
+    --clr-gradient-stop-03: #00000A; /* same as -clr-almost-black */
+
+    --spacer: 1rem;
+}
+
