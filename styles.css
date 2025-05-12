@@ -452,6 +452,23 @@ ul {
     }
 }
 
+.card--organization ul {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    list-style-type: square;
+    margin-left: none;
+
+    @media (max-width: 600px) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+
 /* SECTION: ABOUT */
 
 /* .container--about {
