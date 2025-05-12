@@ -94,6 +94,10 @@ header {
     text-align: center;
 }
 
+.section--hero h1 {
+    color: var(--clr-plum);
+}
+
 .p--tagline {
     font-weight: 800;
     text-align: center;
