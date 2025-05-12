@@ -234,6 +234,13 @@ ul {
 
 }
 
+/* CLASSES */
+
+.img--section-divider {
+    margin: auto;
+    max-width: 2rem;
+}
+
 /* SECTION: POSTS */
 
 .section--posts, 
