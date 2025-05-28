@@ -1,45 +1,31 @@
 :root {
-    /* --ff-primary: font-family "Marcellus", serif;
-    --ff-big: font-family "Marcellus", serif;
-    --ff-body: font-family "Work Sans", sans-serif; */
-
-    --ff-primary: font-family serif;
-    --ff-big: font-family serif;
-    --ff-body: font-family sans-serif;
-
-    --clr-bg-light: #F2EAE4;
-    --clr-bg-dark: #211C16;
-
-    --clr-cream: #F2EAE4;
-    --clr-dark-deep-brown: #211C16;
-    --clr-pure-white: #FFF;
-    --clr-pure-black: #000;
-
-    --clr-plum: #6F4E5B;
-    --clr-purple-youtube: #7F357A;
-    --clr-light-plum: #CC8797;
-    --clr-very-light-plum: #D3B4BB;
-    --clr-dark-plum: #544545;
-
-    --clr-green: #5B6F4E;
-    /* --clr-green: #357F3F; */
-    --clr-light-green: #AED197;
-    --clr-very-light-green: #CFF2A8;
-
-    --clr-almost-white: #FEFDFD;
-    --clr-purple: #9032EB;
-
-    --clr-grey-medium: #58585C;
-    --clr-grey-dark: #393838;
-    --clr-light-purple: #D3ABEA;
-    --clr-blue-footer: #070327;
-
-    --clr-brand-yellow: #F5E345;
-
-    --clr-gradient-stop-01: #1C3B87;
-    --clr-gradient-stop-02: #140941;
-    --clr-gradient-stop-03: #00000A; /* same as -clr-almost-black */
-
-    --spacer: 1rem;
+	--ff-big: 'Alice', serif;
+	/* --ff-primary: "Marcellus", serif; */
+	--ff-body: 'Work Sans', sans-serif;
+	--clr-bg-light: #f2eae4;
+	--clr-bg-dark: #211c16;
+	--clr-cream: #f2eae4;
+	--clr-dark-deep-brown: #211c16;
+	--clr-pure-white: #ffffff;
+	--clr-pure-black: #000000;
+	--clr-plum: #6f4e5b;
+	--clr-purple-youtube: #7f357a;
+	--clr-light-plum: #cc8797;
+	--clr-very-light-plum: #d3b4bb;
+	--clr-dark-plum: #544545;
+	--clr-green: #5b6f4e;
+	/* --clr-green: #357F3F; */
+	--clr-light-green: #aed197;
+	--clr-very-light-green: #cff2a8;
+	--clr-almost-white: #fefdfd;
+	--clr-purple: #9032eb;
+	--clr-grey-medium: #58585c;
+	--clr-grey-dark: #393838;
+	--clr-light-purple: #d3abea;
+	--clr-blue-footer: #070327;
+	--clr-brand-yellow: #f5e345;
+	--clr-gradient-stop-01: #1c3b87;
+	--clr-gradient-stop-02: #140941;
+	--clr-gradient-stop-03: #00000a; /* same as -clr-almost-black */
+	--spacer: 1rem;
 }
-
